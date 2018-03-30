@@ -1,0 +1,42 @@
+.sidebar {
+    padding-top: 42px;
+    padding-right: 10px;
+}
+
+.sidebar {
+    float: left;
+    width: 180px;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu__item_active .nav-menu__text {
+    color: #221f1f;
+}
+
+.nav-menu__item {
+    margin-bottom: 20px;
+}
+
+.nav-menu__link {
+    text-decoration: none;
+}
+
+.nav-menu__text {
+    font-weight: bold;
+    font-size: 14px;
+    color: #f89513;
+    text-transform: uppercase;
+    display: inline-block;
+    max-width: 130px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.nav-menu__text:hover {
+    color: #221f1f;
+}

@@ -1,0 +1,57 @@
+.footer {
+  background: #131415;
+  width: 100%;
+  min-height: 74px;
+  margin-top: -74px;
+  min-width: 1100px;
+}
+
+.footer__left,
+.footer__midle,
+.footer__right {
+  float: left;
+  width: 33.3%;
+}
+
+.footer__left {
+  text-align: left;
+  padding-top: 25px;
+}
+
+.copyright {
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.loft__link {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.description {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.footer__midle {
+  text-align: center;
+  padding-top: 29px;
+}
+
+.footer__right {
+  text-align: right;
+  padding-top: 20px;
+}
+
+.footer-text__afrodita {
+  font-family: "gora_freeregular", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: #f89513;
+  font-size: 18px;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+
+

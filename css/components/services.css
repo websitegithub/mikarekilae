@@ -1,0 +1,42 @@
+.services {
+    margin-bottom: 19px;
+    margin-left: -59px;
+    font-size: 0;
+}
+
+.services__item {
+    width: 252px;
+    display: inline-block;
+    margin-left: 59px;
+    margin-bottom: 47px;
+    vertical-align: top;
+}
+
+.services__img {
+    height: 152px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 29px;
+}
+
+.services__img-pic {
+    position: absolute;
+    max-width: 100%;
+}
+
+.services__title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #221f1f;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.services__info {
+    font-weight: 300;
+    font-size: 14px;
+    color: #221f1f;
+    text-align: left;
+    line-height: 21px;
+}

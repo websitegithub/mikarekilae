@@ -1,0 +1,167 @@
+.header {
+  background: #131415;
+  min-height: 78px;
+}
+
+.header__left,
+.header__right {
+  float: left;
+  width: 50%;
+}
+
+.header__right {
+  text-align: right;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.header__left {
+  text-align: left;
+  padding-top: 28px;
+  padding-bottom: 26px;
+}
+
+.header__text {
+  font-family: "gora_freeregular", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: #f89513;
+  font-size: 18px;
+  display: inline-block;
+  letter-spacing: 1.5px;
+  
+}
+
+.contacts {
+  display: inline-block;
+}
+
+.contacts__fhon {
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 21px;
+  display: block;
+}
+
+.contact__elem {
+  position: relative;
+}
+
+.contact__elem:hover .contacts__dropdown {
+  display: block;
+}
+
+.contacts__schedule {
+  font-weight: bold;
+  color: #f89513;
+  font-size: 14px;
+  padding-right: 4px;
+  display: block;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.contacts__schedule:hover {
+  color: #efdccd;
+}
+
+.contacts__dropdown {
+  position: absolute;
+  background: #f6f6f6;
+  top: 100%;
+  z-index: 1000;
+  display: none;
+  padding: 10px 15px;
+  border-radius: 5px 0 5px 5px;
+  box-shadow: 0px 0px 10px 0px rgba(23, 59, 117, 0.55);
+  right: 0;
+  margin-top: 22px;
+  text-align: left;
+}
+
+.contacts__dropdown:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 11px solid transparent;
+  border-bottom-color: #fff;
+  border-top-width: 0;
+  bottom: 100%;
+  right: 0;
+}
+
+.contacts__dropdown:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 28px;
+  left: 0;
+  right: 0;
+  top: -28px;
+}
+
+.contacts__time {
+  font-size: 14px;
+  color: #f89513;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contacts__lunch {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+.social-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 7px;
+}
+
+.social-icons__list {
+  list-style: none;
+  font-size: 0;
+}
+
+.socials-icons__item {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url("../../img/icons social/spritesheet.png") 0 0 no-repeat;
+  margin-right: 10px;
+}
+
+.socials-icons__item__fb {
+  background-position: -20px -20px;
+}
+
+.social-icons__link:hover .socials-icons__item__fb {
+  background-position: -80px -20px;
+}
+
+.socials-icons__item__google {
+  background-position: -140px -20px;
+}
+
+.social-icons__link:hover .socials-icons__item__google {
+  background-position: -200px -20px;
+}
+
+.socials-icons__item__twitter {
+  background-position: -380px -20px;
+}
+
+.social-icons__link:hover .socials-icons__item__twitter {
+  background-position: -440px -20px;
+}
+
+.socials-icons__item__mail {
+  background-position: -260px -20px;
+}
+
+.social-icons__link:hover .socials-icons__item__mail {
+  background-position: -320px -20px;
+}
