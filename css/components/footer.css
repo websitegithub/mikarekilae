@@ -1,5 +1,5 @@
 .footer {
-  background: #131415;
+  background: #4e8839;
   width: 100%;
   min-height: 74px;
   margin-top: -74px;
@@ -25,6 +25,12 @@
   line-height: 1.3;
 }
 
+.copyright__text {
+  color: #ffffff;
+  font-weight: bold;
+  display: inline-block;
+}
+
 .loft__link {
   color: #ffffff;
   font-weight: bold;
@@ -33,11 +39,12 @@
 .description {
   color: #ffffff;
   font-weight: bold;
+  display: inline-block;
 }
 
 .footer__midle {
-  text-align: center;
-  padding-top: 29px;
+  text-align: right;
+  padding-top: 20px;
 }
 
 .footer__right {
@@ -49,7 +56,7 @@
   font-family: "gora_freeregular", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-decoration: none;
   color: #f89513;
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
   letter-spacing: 1px;
 }

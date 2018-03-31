@@ -13,6 +13,8 @@
 @import "components/section-title.css";
 @import "components/animation.css";
 @import "components/map.css";
+@import "components/slider.css";
+@import "components/contacts.css";
 
 /* pages */
 @import "components/about.css";

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru-">
+<html lang="en-Fi">
 
 <head>
   <meta charset="UTF-8">
@@ -8,6 +8,7 @@
   <title>My technique</title>
   <link rel="icon" href="img/favicon1.ico" type="image/x-icon">
   <!--CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <link rel="stylesheet " href="css/main.css">
 </head>
 
@@ -113,23 +114,33 @@
 
         <!-- main-page-content -->
         <main class="main-content">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam totam asperiores eligendi aliquam voluptatibus accusamus
-            tenetur tempora dolores quas. Molestias vero laboriosam quibusdam reprehenderit nulla quas placeat delectus facere
-            illum. Quidem debitis sunt voluptatem minima ea provident eos. Eum, non exercitationem illo hic delectus porro
-            voluptate tempora labore aspernatur unde facere, deleniti adipisci consequatur. Voluptates laboriosam odio quisquam
-            obcaecati minus. Architecto soluta quidem minus tempore, odio assumenda alias distinctio, animi tenetur sit commodi
-            earum magnam, voluptatem porro voluptates. Similique harum iure eius recusandae ut perferendis minus unde esse,
-            quo vel? Est nemo sit, cumque distinctio, officia possimus dolor aspernatur rem in laborum tempora ullam eveniet
-            assumenda minima suscipit nesciunt enim saepe? Enim vel laudantium eveniet accusamus libero eum molestias expedita?
-            Excepturi molestias non sequi saepe dolor. Eum asperiores eos harum accusantium quaerat velit tenetur obcaecati
-            sequi id optio magni, hic, voluptatibus facilis eaque. Repudiandae eveniet, aliquid aliquam facere ea asperiores.
-            Omnis consequatur in molestias necessitatibus quis fugit totam vitae laudantium, asperiores voluptatum quia porro
-            incidunt, ducimus odio maxime modi dicta fugiat nihil? Enim magnam repudiandae nisi eos nemo dolorem voluptas!
-            Atque explicabo unde expedita magnam eum, delectus nulla doloribus illo consequuntur tenetur corporis laboriosam!
-            Nam dicta aut dolor ipsa mollitia odit odio eos quaerat at illum nihil accusantium, facere deserunt. Suscipit
-            autem maiores quisquam culpa non? Tempore, numquam molestiae dolores error eveniet architecto sed vero voluptatum
-            mollitia, nulla rem porro quis quod asperiores quibusdam saepe suscipit eum.
-          </p>
+          <h1 class="section-title">My technique:</h1>
+          <div class="slider">
+            <div>
+              <img src="img/technique/bigt1.jpg" alt="technique" class="slider-img">
+            </div>
+            <div>
+              <img src="img/technique/bigt2.jpg" alt="technique" class="slider-img">
+            </div>
+            <div>
+              <img src="img/technique/bigt3.jpg" alt="technique" class="slider-img">
+            </div>
+            <div>
+              <img src="img/technique/bigt4.jpg" alt="technique" class="slider-img">
+            </div>
+            <div>
+              <img src="img/technique/bigt5.jpg" alt="technique" class="slider-img">
+            </div>
+            <div>
+              <img src="img/technique/bigt6.jpg" alt="technique" class="slider-img">
+            </div>
+            <div>
+              <img src="img/technique/bigt7.jpg" alt="technique" class="slider-img">
+            </div>
+            <div class="t">
+              <img src="img/technique/bigt8.jpg" alt="technique" class="slider-img">
+            </div>
+          </div>
         </main>
       </div>
     </section>
@@ -149,6 +160,19 @@
         <a href="index.html" class="footer-text__afrodita">Mika Rekilae</a>
       </div>
       <div class="footer__right">
-    </div>
+      </div>
   </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.slider').bxSlider({
+        mode: 'fade',
+        captions: true,
+        slideWidth: 700
+      });
+    });
+  </script>
 </body>
