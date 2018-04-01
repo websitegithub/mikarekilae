@@ -26,12 +26,10 @@
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   margin-top: 5px;
-  opacity: .8;
 }
 
 .intro-button__text:hover {
   background: #4e8839;
-  opacity: .8;
 }
 
 .wrapper_intro-page {
