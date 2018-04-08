@@ -31,11 +31,6 @@
   display: inline-block;
 }
 
-.loft__link {
-  color: #ffffff;
-  font-weight: bold;
-}
-
 .description {
   color: #ffffff;
   font-weight: bold;
@@ -65,4 +60,9 @@
   cursor: pointer;
 }
 
+.footer__animation {
+  display: inline-block;
+  max-width: 60%;
+  vertical-align: middle;
+}
 

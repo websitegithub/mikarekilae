@@ -6,18 +6,19 @@
 /* components */
 @import "components/header.css";
 @import "components/sidebar.css";
-@import "components/form.css";
 @import "components/footer.css";
 @import "components/main-content.css";
-@import "components/breadcrumbs.css";
 @import "components/section-title.css";
 @import "components/animation.css";
 @import "components/map.css";
 @import "components/slider.css";
 @import "components/contacts.css";
 
+
+
 /* pages */
 @import "components/about.css";
-@import "components/comments.css";
-@import "components/services.css";
+@import "components/team.css";
+@import "components/family.css";
 @import "components/intro.css";
+@import "components/partners.css";

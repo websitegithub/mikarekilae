@@ -12,29 +12,24 @@
 .wrapper__contacts-info {
   position: absolute;
   background-color: rgba(18,38,32,0.6);
-  width: 365px;
+  width: 335px;
   border-radius: 5px;
   top: 15px;
   left: 15px;
   text-align: center;
 }
 
-.section-title__white {
-  color: #fff;
-  
-  margin-bottom: 25px;
-}
-
 .contacts__info {
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
+  margin-top: 10px;
   
 }
 
 .contacts__info, .contacts__address {
   color: #fff;
-  padding: 5px;
+  padding: px;
   display: inline-block;
-  
+  margin-bottom: 5px;
 }
 

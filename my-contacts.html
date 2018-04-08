@@ -116,9 +116,12 @@
 
         <!-- main-page-content -->
         <main class="main-content">
+          <div class="block__title-animation">
+            <h1 class="section-title">My contacts:</h1>
+            <img src="img/other/place-marker.png" alt="" class="img__animation-another">
+          </div>
           <div class="wrapper__contacts">
             <div class="wrapper__contacts-info">
-              <h1 class="section-title section-title__white">My contacts:</h1>
               <span class="contacts__info">Address:</span>
               <span class="contacts__address">Finland, Lohtaja, Seikkulantie 120</span>
               <span class="contacts__info">Phone number:</span>
@@ -138,7 +141,7 @@
     <div class="container clearfix">
       <div class="footer__left">
         <div class="copyright">
-          <span class="copyright__text">Done by</span>
+          <span class="copyright__text">Made by</span>
           <a href="http://www.facebook.com/ohotnik.art" target="_blank" class="description">Okhotnichenko Artur</a>
           <span class="copyright__text">2018</span>
         </div>
@@ -147,12 +150,13 @@
         <a href="index.html" class="footer-text__afrodita">Mika Rekilae</a>
       </div>
       <div class="footer__right">
+        <img src="img/other/cow-milk.png" alt="" class="footer__animation">
       </div>
     </div>
   </footer>
 
   <!-- map -->
-  <!-- <script>
+  <script>
     function initMap() {
       var uluru = {
         lat: 64.00445252,
@@ -169,204 +173,7 @@
       });
     }
   </script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEBdMYzwTdEvEM85z_sfIo3YdsVNv5PBY&callback=initMap&language=en&region=FI">
-  </script> -->
-
-  <script>
-    function initMap() {
-
-      // Create a new StyledMapType object, passing it an array of styles,
-      // and the name to be displayed on the map type control.
-      var styledMapType = new google.maps.StyledMapType(
-        [{
-            elementType: 'geometry',
-            stylers: [{
-              color: '#ebe3cd'
-            }]
-          },
-          {
-            elementType: 'labels.text.fill',
-            stylers: [{
-              color: '#523735'
-            }]
-          },
-          {
-            elementType: 'labels.text.stroke',
-            stylers: [{
-              color: '#f5f1e6'
-            }]
-          },
-          {
-            featureType: 'administrative',
-            elementType: 'geometry.stroke',
-            stylers: [{
-              color: '#c9b2a6'
-            }]
-          },
-          {
-            featureType: 'administrative.land_parcel',
-            elementType: 'geometry.stroke',
-            stylers: [{
-              color: '#dcd2be'
-            }]
-          },
-          {
-            featureType: 'administrative.land_parcel',
-            elementType: 'labels.text.fill',
-            stylers: [{
-              color: '#ae9e90'
-            }]
-          },
-          {
-            featureType: 'landscape.natural',
-            elementType: 'geometry',
-            stylers: [{
-              color: '#dfd2ae'
-            }]
-          },
-          {
-            featureType: 'poi',
-            elementType: 'geometry',
-            stylers: [{
-              color: '#dfd2ae'
-            }]
-          },
-          {
-            featureType: 'poi',
-            elementType: 'labels.text.fill',
-            stylers: [{
-              color: '#93817c'
-            }]
-          },
-          {
-            featureType: 'poi.park',
-            elementType: 'geometry.fill',
-            stylers: [{
-              color: '#a5b076'
-            }]
-          },
-          {
-            featureType: 'poi.park',
-            elementType: 'labels.text.fill',
-            stylers: [{
-              color: '#447530'
-            }]
-          },
-          {
-            featureType: 'road',
-            elementType: 'geometry',
-            stylers: [{
-              color: '#f5f1e6'
-            }]
-          },
-          {
-            featureType: 'road.arterial',
-            elementType: 'geometry',
-            stylers: [{
-              color: '#fdfcf8'
-            }]
-          },
-          {
-            featureType: 'road.highway',
-            elementType: 'geometry',
-            stylers: [{
-              color: '#f8c967'
-            }]
-          },
-          {
-            featureType: 'road.highway',
-            elementType: 'geometry.stroke',
-            stylers: [{
-              color: '#e9bc62'
-            }]
-          },
-          {
-            featureType: 'road.highway.controlled_access',
-            elementType: 'geometry',
-            stylers: [{
-              color: '#e98d58'
-            }]
-          },
-          {
-            featureType: 'road.highway.controlled_access',
-            elementType: 'geometry.stroke',
-            stylers: [{
-              color: '#db8555'
-            }]
-          },
-          {
-            featureType: 'road.local',
-            elementType: 'labels.text.fill',
-            stylers: [{
-              color: '#806b63'
-            }]
-          },
-          {
-            featureType: 'transit.line',
-            elementType: 'geometry',
-            stylers: [{
-              color: '#dfd2ae'
-            }]
-          },
-          {
-            featureType: 'transit.line',
-            elementType: 'labels.text.fill',
-            stylers: [{
-              color: '#8f7d77'
-            }]
-          },
-          {
-            featureType: 'transit.line',
-            elementType: 'labels.text.stroke',
-            stylers: [{
-              color: '#ebe3cd'
-            }]
-          },
-          {
-            featureType: 'transit.station',
-            elementType: 'geometry',
-            stylers: [{
-              color: '#dfd2ae'
-            }]
-          },
-          {
-            featureType: 'water',
-            elementType: 'geometry.fill',
-            stylers: [{
-              color: '#b9d3c2'
-            }]
-          },
-          {
-            featureType: 'water',
-            elementType: 'labels.text.fill',
-            stylers: [{
-              color: '#92998d'
-            }]
-          }
-        ], {
-          name: 'Styled Map'
-        });
-
-      // Create a map object, and include the MapTypeId to add
-      // to the map type control.
-      var map = new google.maps.Map(document.getElementById('map'), {
-        center: {
-          lat: 55.647,
-          lng: 37.581
-        },
-        zoom: 11,
-        mapTypeControlOptions: {
-          mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
-            'styled_map'
-          ]
-        }
-      });
-
-      //Associate the styled map with the MapTypeId and set it to display.
-      map.mapTypes.set('styled_map', styledMapType);
-      map.setMapTypeId('styled_map');
-    }
-  </script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEBdMYzwTdEvEM85z_sfIo3YdsVNv5PBY&callback=initMap&language=en&region=FI"></script>
 </body>
+
+</html>

@@ -4,4 +4,21 @@
     font-size: 40px;
     margin-bottom: 15px;
     margin-top: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.block__title-animation {
+    vertical-align: middle;
+}
+
+.img__animation-another {
+    max-width: 7%;
+    display: inline-block;
+    vertical-align: middle;
+    animation: move 4s;
+    animation-fill-mode: forwards;
+    -webkit-animation: moveback 4s;
+    -webkit-animation-fill-mode: forwards;
+    margin-left: 10px;
 }

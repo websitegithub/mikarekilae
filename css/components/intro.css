@@ -53,34 +53,10 @@
   width: 300px;
   display: inline-block;
   margin-top: 65px;
-  background-color: rgba(252,252,252,0.4);
+  background-color: rgba(252, 252, 252, 0.4);
   border-radius: 5px;
 }
 
 .intro-logo {
   height: 270px;
 }
-
-.picture__cow {
-  position: absolute;
-  display: inline-block;
-  left: 50px;
-  bottom: 50px;
-}
-
-.picture__cow-img {
-  max-width: 15%;
-}
-
-.picture__tractor {
-  position: absolute;
-  display: inline-block;
-  right: 50px;
-  top: 175px;
-}
-
-.picture__tractor-img {
-  max-width: 15%;
-}
-
-

@@ -13,7 +13,7 @@
 }
 
 .nav-menu__item_active .nav-menu__text {
-    color: #221f1f;
+    color: #4e8839;
 }
 
 .nav-menu__item {
@@ -38,7 +38,7 @@
 }
 
 .nav-menu__text:hover {
-    color: #4e8839;;
+    color: #4e8839;
 }
 
 .nav-menu__text:after {
